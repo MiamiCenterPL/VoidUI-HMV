@@ -40,8 +40,8 @@ end
 		health_bar:set_color(player_color * 0.8 + Color.white * 0.3)
 		armor_value:set_color(VoidUI_HMV.options.generic_colors and VoidUI_HMV:GetColor("text_color") or VoidUI_HMV:GetColor("armor_value"))
 		health_value:set_color(VoidUI_HMV.options.generic_colors and VoidUI_HMV:GetColor("text_color") or VoidUI_HMV:GetColor("health_value"))
-		downs_value:set_color(VoidUI_HMV.options.generic_colors and color_red or VoidUI_HMV:GetColor("downs_value"))
-		detect_value:set_color(VoidUI_HMV.options.generic_colors and color_red or VoidUI_HMV:GetColor("detection_value"))
+		downs_value:set_color(downs_value)
+		detect_value:set_color(color_red)
 		delayed_damage_health_bar:set_color(color_red)
 
 		local weapons_panel = self._custom_player_panel:child("weapons_panel")

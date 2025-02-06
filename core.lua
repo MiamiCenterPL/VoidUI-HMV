@@ -230,6 +230,7 @@ return {
 	grenades_icon = pink,
 	bag_icon = pink,
 	detection_color = {1,1,0.4,0.4},
+	downs_value = {1,1,0.4,0.4},
 	Gold_icon = green,
 	num_Gold = pink,
 	num_Lrm_Keycard = pink,

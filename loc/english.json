@@ -261,7 +261,5 @@
     "VoidUI_HMV_Assemble_title" : "Assemble",
 
     "VoidUI_HMV_downs_value_title" : "Downs text color",
-    "VoidUI_HMV_downs_value_desc" : "Remaining downs displayed inside health bar",
-    "VoidUI_HMV_detection_value_title" : "Detection percentage",
-    "VoidUI_HMV_detection_value_desc" : "Detection percentage displayed inside health bar"
+    "VoidUI_HMV_downs_value_desc" : "Remaining downs displayed inside health bar"
 }
