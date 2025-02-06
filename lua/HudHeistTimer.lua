@@ -1,0 +1,11 @@
+Hooks:PostHook(HUDHeistTimer, "init", "change_time_color2", function(self, ...)
+	local level_name = self._heist_timer_panel:child("level_name")
+	local bags_panel = self._heist_timer_panel:child("bags_panel")
+	if not bags_panel or not level_name or not self._timer_text then return end
+	self._timer_text:set_color(VoidUI_HMV.options.generic_colors and VoidUI_HMV:GetColor("text_color") or VoidUI_HMV:GetColor("heist_timer"))
+	local bags_icon = bags_panel:child("bags_icon")
+	local bags_count = bags_panel:child("bags_count")
+	level_name:set_color(VoidUI_HMV.options.generic_colors and VoidUI_HMV:GetColor("text_color") or VoidUI_HMV:GetColor("level_name"))
+	bags_icon:set_color(VoidUI_HMV.options.generic_colors and VoidUI_HMV:GetColor("icon_color") or VoidUI_HMV:GetColor("bags_icon"))
+	bags_count:set_color(VoidUI_HMV.options.generic_colors and VoidUI_HMV:GetColor("text_color") or VoidUI_HMV:GetColor("bags_count"))
+end)

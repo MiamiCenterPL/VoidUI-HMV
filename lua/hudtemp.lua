@@ -1,0 +1,8 @@
+	Hooks:PostHook(HUDTemp, "show_carry_bag", "change_bag_color", function(self, carry_id, value, ...)
+		local bag_panel = self._custom_temp_panel:child("bag_panel")
+		local bag_text_panel = bag_panel:child("bag_text_panel")
+		local bag_text = bag_text_panel:child("bag_text")
+		local bag_icon = bag_panel:child("bag_icon")
+		bag_icon:set_color(VoidUI_HMV.options.generic_colors and VoidUI_HMV:GetColor("icon_color") or VoidUI_HMV:GetColor("bag_icon"))
+		bag_text:set_color(VoidUI_HMV.options.generic_colors and VoidUI_HMV:GetColor("text_color") or VoidUI_HMV:GetColor("bag_value"))
+	end)

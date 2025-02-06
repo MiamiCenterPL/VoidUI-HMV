@@ -1,0 +1,459 @@
+{
+	"menu_id" : "colors",
+	"parent_menu" : "options",
+	"title" : "VoidUI_HMV_colors_title",
+	"priority" : 3,
+	"items" : [
+		{
+			"type" : "toggle",
+			"id" : "change_tweakdata_colors",
+			"is_parent" : false,
+			"title" : "VoidUI_HMV_change_tweakdata_colors_title",
+			"description" : "VoidUI_HMV_change_tweakdata_colors_desc",
+			"default_value" : false
+		},
+		{
+			"type" : "toggle",
+			"id" : "generic_colors",
+			"is_parent" : true,
+			"title" : "VoidUI_HMV_generic_colors_title",
+			"description" : "VoidUI_HMV_generic_colors_desc",
+			"default_value" : false
+		},
+		{
+            "type" : "color_select",
+            "id" : "detection_color",
+            "title" : "VoidUI_HMV_detection_color_title",
+            "description" : "VoidUI_HMV_detection_color_desc",
+            "default_value" : [1,0.4,0.4]
+        },
+		{
+			"type" : "divider"
+		},
+        {
+            "type" : "color_select",
+            "id" : "text_color",
+            "parent" : "generic_colors",
+            "title" : "VoidUI_HMV_text_color_title",
+            "description" : "VoidUI_HMV_text_color_desc",
+            "default_value" : [0.4,1,0.6]
+        },
+        {
+            "type" : "color_select",
+            "id" : "icon_color",
+            "parent" : "generic_colors",
+            "title" : "VoidUI_HMV_icon_color_title",
+            "description" : "VoidUI_HMV_icon_color_desc",
+            "default_value" : [1,0.502,0.875]
+        },
+		{
+			"type" : "divider"
+		},
+		{
+			"type" : "label",
+			"title"	: "VoidUI_HMV_AdvancedCS"
+		},
+		{
+			"type" : "label",
+			"title"	: "VoidUI_HMV_AdvancedCS2"
+		},
+		{
+			"type" : "divider"
+		},
+		{
+			"type" : "label",
+			"title"	: "VoidUI_HMV_InfoBox"
+		},
+		{
+			"type" : "divider"
+		},
+		{
+            "type" : "color_select",
+            "id" : "icon_casingbox",
+            "title" : "VoidUI_HMV_icon_casingbox_title",
+            "description" : "VoidUI_HMV_icon_casingbox_desc",
+            "default_value" : [0.4,1,0.6]
+        },
+		{
+            "type" : "color_select",
+            "id" : "casing_text",
+            "title" : "VoidUI_HMV_casing_text_title",
+            "description" : "VoidUI_HMV_casing_text_desc",
+            "default_value" : [1,0.502,0.875]
+        },
+		{
+            "type" : "color_select",
+            "id" : "vip_icon",
+            "title" : "VoidUI_HMV_vip_icon_title",
+            "description" : "VoidUI_HMV_vip_icon_desc",
+            "default_value" : [0.4,1,0.6]
+        },
+		{
+            "type" : "color_select",
+            "id" : "pagers_icon",
+            "title" : "VoidUI_HMV_pagers_icon_title",
+            "description" : "VoidUI_HMV_pagers_icon_desc",
+            "default_value" : [0.4,1,0.6]
+        },
+		{
+            "type" : "color_select",
+            "id" : "num_pagers",
+            "title" : "VoidUI_HMV_num_pagers_title",
+            "description" : "VoidUI_HMV_num_pagers_desc",
+            "default_value" : [1,0.502,0.875]
+        },
+		{
+            "type" : "color_select",
+            "id" : "ecm_icon",
+            "title" : "VoidUI_HMV_ecm_icon_title",
+            "description" : "VoidUI_HMV_ecm_icon_desc",
+            "default_value" : [0.4,1,0.6]
+        },
+		{
+            "type" : "color_select",
+            "id" : "ecm_time",
+            "title" : "VoidUI_HMV_ecm_time_title",
+            "description" : "VoidUI_HMV_ecm_time_desc",
+            "default_value" : [1,0.502,0.875]
+        },
+		{
+            "type" : "color_select",
+            "id" : "cuffed_icon",
+            "title" : "VoidUI_HMV_cuffed_icon_title",
+            "description" : "VoidUI_HMV_cuffed_icon_desc",
+            "default_value" : [0.4,1,0.6]
+        },
+		{
+            "type" : "color_select",
+            "id" : "downs_value",
+            "title" : "VoidUI_HMV_downs_value_title",
+            "description" : "VoidUI_HMV_downs_value_desc",
+            "default_value" : [1,0.502,0.875]
+        },
+		{
+            "type" : "color_select",
+            "id" : "detection_value",
+            "title" : "VoidUI_HMV_detection_value_title",
+            "description" : "VoidUI_HMV_detection_value_desc",
+            "default_value" : [1,0.502,0.875]
+        },
+		{
+            "type" : "color_select",
+            "id" : "num_cuffed",
+            "title" : "VoidUI_HMV_num_cuffed_title",
+            "description" : "VoidUI_HMV_num_cuffed_desc",
+            "default_value" : [1,0.502,0.875]
+        },
+		{
+            "type" : "color_select",
+            "id" : "waves_icon",
+            "title" : "VoidUI_HMV_waves_icon_title",
+            "description" : "VoidUI_HMV_waves_icon_desc",
+            "default_value" : [0.4,1,0.6]
+        },
+		{
+            "type" : "color_select",
+            "id" : "num_waves",
+            "title" : "VoidUI_HMV_num_waves_title",
+            "description" : "VoidUI_HMV_num_waves_desc",
+            "default_value" : [1,0.502,0.875]
+        },
+		{
+            "type" : "color_select",
+            "id" : "hostages_icon",
+            "title" : "VoidUI_HMV_hostages_icon_title",
+            "description" : "VoidUI_HMV_hostages_icon_desc",
+            "default_value" : [0.4,1,0.6]
+        },
+		{
+            "type" : "color_select",
+            "id" : "num_hostages",
+            "title" : "VoidUI_HMV_num_hostages_title",
+            "description" : "VoidUI_HMV_num_hostages_desc",
+            "default_value" : [1,0.502,0.875]
+        },
+		{
+			"type" : "divider"
+		},
+		{
+			"type" : "label",
+			"title"	: "VoidUI_HMV_InfoBoxAddon"
+		},
+		{
+			"type" : "divider"
+		},
+		{
+			"type" : "button",
+			"id" : "hmv_infobox",
+			"title" : "VoidUI_HMV_infobox_title",
+			"description" : "VoidUI_HMV_infobox_desc",
+			"callback" : "CreateInfoboxCategories"
+		},
+		{
+			"type" : "label",
+			"title"	: "VoidUI_HMV_Other"
+		},
+		{
+			"type" : "divider"
+		},
+		{
+			"type" : "color_select",
+			"id" : "hint_text_color",
+			"title" : "VoidUI_HMV_hint_color_title",
+			"description" : "VoidUI_HMV_hint_color_desc",
+			"default_value" : [0.4,1,0.6]
+		},
+		{
+			"type" : "color_select",
+			"id" : "level_name",
+			"title" : "VoidUI_HMV_level_name_title",
+			"description" : "VoidUI_HMV_level_name_desc",
+			"default_value" : [0.502,0.875]
+		},
+		{
+			"type" : "color_select",
+			"id" : "bags_count",
+			"title" : "VoidUI_HMV_bags_count_title",
+			"description" : "VoidUI_HMV_bags_count_desc",
+			"default_value" : [0.4,1,0.6]
+		},
+		{
+			"type" : "color_select",
+			"id" : "bags_icon",
+			"title" : "VoidUI_HMV_bags_icon_title",
+			"description" : "VoidUI_HMV_bags_icon_desc",
+			"default_value" : [1,0.502,0.875]
+		},
+		{
+			"type" : "color_select",
+			"id" : "int_time",
+			"title" : "VoidUI_HMV_int_time_title",
+			"description" : "VoidUI_HMV_int_time_desc",
+			"default_value" : [0.4,1,0.6]
+		},
+		{
+			"type" : "color_select",
+			"id" : "int_bar",
+			"title" : "VoidUI_HMV_int_bar_title",
+			"description" : "VoidUI_HMV_int_bar_desc",
+			"default_value" : [1,0.502,0.875]
+		},
+		{
+			"type" : "color_select",
+			"id" : "heist_timer",
+			"title" : "VoidUI_HMV_heist_timer_title",
+			"description" : "VoidUI_HMV_heist_timer_desc",
+			"default_value" : [0.4,1,0.6]
+		},
+		{
+			"type" : "color_select",
+			"id" : "int_text",
+			"title" : "VoidUI_HMV_int_text_title",
+			"description" : "VoidUI_HMV_int_text_desc",
+			"default_value" : [0.4,1,0.6]
+		},
+		{
+			"type" : "color_select",
+			"id" : "objective_text",
+			"title" : "VoidUI_HMV_objective_text_title",
+			"description" : "VoidUI_HMV_objective_text_desc",
+			"default_value" : [1,0.502,0.875]
+		},
+		{
+			"type" : "color_select",
+			"id" : "completed_objective_text",
+			"title" : "VoidUI_HMV_completed_objective_text_title",
+			"description" : "VoidUI_HMV_completed_objective_text_desc",
+			"default_value" : [0.4,1,0.6]
+		},
+		{
+			"type" : "color_select",
+			"id" : "completed_objective_border",
+			"title" : "VoidUI_HMV_completed_objective_border_title",
+			"description" : "VoidUI_HMV_completed_objective_border_desc",
+			"default_value" : [0.4,1,0.6]
+		},
+		{
+			"type" : "color_select",
+			"id" : "presenter_text",
+			"title" : "VoidUI_HMV_presenter_text_title",
+			"description" : "VoidUI_HMV_presenter_text_desc",
+			"default_value" : [0.4,1,0.6]
+		},
+		{
+			"type" : "color_select",
+			"id" : "presenter_title",
+			"title" : "VoidUI_HMV_presenter_title_title",
+			"description" : "VoidUI_HMV_presenter_title_desc",
+			"default_value" : [1,0.502,0.875]
+		},
+		{
+			"type" : "color_select",
+			"id" : "primary_ammo",
+			"title" : "VoidUI_HMV_primary_ammo_title",
+			"description" : "VoidUI_HMV_primary_ammo_desc",
+			"default_value" : [0.4,1,0.6]
+		},
+		{
+			"type" : "color_select",
+			"id" : "secondary_ammo",
+			"title" : "VoidUI_HMV_secondary_ammo_title",
+			"description" : "VoidUI_HMV_secondary_ammo_desc",
+			"default_value" : [0.4,1,0.6]
+		},
+		{
+			"type" : "color_select",
+			"id" : "primary_firemode",
+			"title" : "VoidUI_HMV_primary_firemode_title",
+			"description" : "VoidUI_HMV_primary_firemode_desc",
+			"default_value" : [1,0.502,0.875]
+		},
+		{
+			"type" : "color_select",
+			"id" : "secondary_firemode",
+			"title" : "VoidUI_HMV_secondary_firemode_title",
+			"description" : "VoidUI_HMV_secondary_firemode_desc",
+			"default_value" : [1,0.502,0.875]
+		},
+		{
+			"type" : "color_select",
+			"id" : "health_value",
+			"title" : "VoidUI_HMV_health_value_title",
+			"description" : "VoidUI_HMV_health_value_desc",
+			"default_value" : [0.4,1,0.6]
+		},
+		{
+			"type" : "color_select",
+			"id" : "armor_value",
+			"title" : "VoidUI_HMV_armor_value_title",
+			"description" : "VoidUI_HMV_armor_value_desc",
+			"default_value" : [0.4,1,0.6]
+		},
+		{
+			"type" : "color_select",
+			"id" : "cable_ties_icon",
+			"title" : "VoidUI_HMV_cable_ties_icon_title",
+			"description" : "VoidUI_HMV_cable_ties_icon_desc",
+			"default_value" : [1,0.502,0.875]
+		},
+		{
+			"type" : "color_select",
+			"id" : "cable_ties_amount",
+			"title" : "VoidUI_HMV_cable_ties_amount_title",
+			"description" : "VoidUI_HMV_cable_ties_amount_desc",
+			"default_value" : [0.4,1,0.6]
+		},
+		{
+			"type" : "color_select",
+			"id" : "grenades_icon",
+			"title" : "VoidUI_HMV_grenades_icon_title",
+			"description" : "VoidUI_HMV_grenades_icon_desc",
+			"default_value" : [1,0.502,0.875]
+		},
+		{
+			"type" : "color_select",
+			"id" : "grenades_amount",
+			"title" : "VoidUI_HMV_grenades_amount_title",
+			"description" : "VoidUI_HMV_grenades_amount_desc",
+			"default_value" : [0.4,1,0.6]
+		},
+		{
+			"type" : "color_select",
+			"id" : "secured_bag_icon",
+			"title" : "VoidUI_HMV_bag_icon_title",
+			"description" : "VoidUI_HMV_bag_icon_desc",
+			"default_value" : [0.4,1,0.6]
+		},
+		{
+			"type" : "color_select",
+			"id" : "bag_value",
+			"title" : "VoidUI_HMV_bag_value_title",
+			"description" : "VoidUI_HMV_bag_value_desc",
+			"default_value" : [0.4,1,0.6]
+		},
+		{
+			"type" : "color_select",
+			"id" : "equipment_icon",
+			"title" : "VoidUI_HMV_equipment_icon_title",
+			"description" : "VoidUI_HMV_equipment_icon_desc",
+			"default_value" : [1,0.502,0.875]
+		},
+		{
+			"type" : "color_select",
+			"id" : "equipment_amount",
+			"title" : "VoidUI_HMV_equipment_amount_title",
+			"description" : "VoidUI_HMV_equipment_amount_desc",
+			"default_value" : [0.4,1,0.6]
+		},
+		{
+			"type" : "color_select",
+			"id" : "pecm_amount",
+			"title" : "VoidUI_HMV_pecm_amount_title",
+			"description" : "VoidUI_HMV_pecm_amount_desc",
+			"default_value" : [0.4,1,0.6]
+		},
+		{
+			"type" : "color_select",
+			"id" : "fore_color",
+			"title" : "VoidUI_HMV_fore_color_title",
+			"description" : "VoidUI_HMV_fore_color_desc",
+			"default_value" : [0.4,1,0.6]
+		},
+		{
+			"type" : "color_select",
+			"id" : "waiting_panel",
+			"title" : "VoidUI_HMV_waiting_panel_title",
+			"description" : "VoidUI_HMV_waiting_panel_desc",
+			"default_value" : [0.4,1,0.6]
+		},
+		{
+			"type" : "color_select",
+			"id" : "primary_weapon",
+			"title" : "VoidUI_HMV_primary_weapon_title",
+			"description" : "VoidUI_HMV_primary_weapon_desc",
+			"default_value" : [1,0.502,0.875]
+		},
+		{
+			"type" : "color_select",
+			"id" : "secondary_weapon",
+			"title" : "VoidUI_HMV_secondary_weapon_title",
+			"description" : "VoidUI_HMV_secondary_weapon_desc",
+			"default_value" : [1,0.502,0.875]
+		},
+		{
+			"type" : "color_select",
+			"id" : "waiting_color",
+			"title" : "VoidUI_HMV_waiting_color_title",
+			"description" : "VoidUI_HMV_waiting_color_desc",
+			"default_value" : [1,0.502,0.875]
+		},
+		{
+			"type" : "color_select",
+			"id" : "subtitle_color",
+			"title" : "VoidUI_HMV_subtitle_color_title",
+			"description" : "VoidUI_HMV_subtitle_color_desc",
+			"default_value" : [0.4,1,0.6]
+		},
+		{
+			"type" : "color_select",
+			"id" : "waypoint_icon",
+			"title" : "VoidUI_HMV_waypoint_icon_title",
+			"description" : "VoidUI_HMV_waypoint_icon_desc",
+			"default_value" : [1,0.502,0.875]
+		},
+		{
+			"type" : "color_select",
+			"id" : "waypoint_distance",
+			"title" : "VoidUI_HMV_waypoint_distance_title",
+			"description" : "VoidUI_HMV_waypoint_distance_desc",
+			"default_value" : [0.4,1,0.6]
+		},
+		{
+			"type" : "color_select",
+			"id" : "waypoint_arrow",
+			"title" : "VoidUI_HMV_waypoint_arrow_title",
+			"description" : "VoidUI_HMV_waypoint_arrow_desc",
+			"default_value" : [0.4,1,0.6]
+		}
+	]
+}

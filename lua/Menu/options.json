@@ -1,0 +1,18 @@
+{
+	"menu_id" : "options",
+	"title" : "VoidUI_options_title",
+	"priority" : 1,
+	"items" : [
+		{
+			"type" : "label",
+			"title"	: "VoidUI_HMV"
+		},
+		{
+			"type" : "button",
+			"id" : "hmv_options",
+			"title" : "VoidUI_HMV_colors_title",
+			"description" : "VoidUI_HMV_colors_desc",
+			"callback" : "OpenColorSettingsHMV"
+		}
+	]
+}
